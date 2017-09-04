@@ -8,6 +8,7 @@ inherit git-r3
 DESCRIPTION="A lightweight TV show manager."
 HOMEPAGE="https://github.com/TonCherAmi/tvsm"
 EGIT_REPO_URI="https://github.com/TonCherAmi/tvsm.git"
+EGIT_BRANCH="dev"
 EGIT_CLONE_TYPE="shallow"
 
 LICENSE="LGPL-3"
