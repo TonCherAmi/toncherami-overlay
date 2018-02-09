@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND=">net-p2p/deluge-1.3.15-r2"
+DEPEND=">=net-p2p/deluge-1.3.15-r2"
 RDEPEND="${DEPEND}"
 
 src_install() {
