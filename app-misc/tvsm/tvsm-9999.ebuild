@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit git-r3
+inherit git-r3 bash-completion-r1
 
 DESCRIPTION="A lightweight TV show manager."
 HOMEPAGE="https://github.com/TonCherAmi/tvsm"
