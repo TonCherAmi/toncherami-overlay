@@ -18,3 +18,8 @@ IUSE=""
 
 DEPEND=">=dev-scheme/guile-2.0.12"
 RDEPEND="${DEPEND}"
+
+src_install() {
+	default
+	newbashcomp doc/tvsm-completion.bash ${PN}
+}
