@@ -16,4 +16,4 @@ IUSE=""
 
 DEPEND=">=app-arch/gzip-1.8
         >=www-client/elinks-0.12_pre6-r4"
-RDEPEND="sys-apps/man"
+RDEPEND="sys-apps/man-db"
