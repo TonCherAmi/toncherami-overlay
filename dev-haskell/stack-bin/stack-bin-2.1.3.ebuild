@@ -41,7 +41,7 @@ src_prepare() {
 }
 
 src_install() {
-	dodoc doc/*
+	dodoc doc/*.md
 	dobin stack-bin
 	use symlink && dosym stack-bin /usr/bin/stack
 }
