@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>kratos661@gmail.com</email>
+		<name>Gentoo Haskell</name>
+	</maintainer>
+	<longdescription>
+	  Binary-only version of the Stack dev tool.
+	</longdescription>
+</pkgmetadata>
