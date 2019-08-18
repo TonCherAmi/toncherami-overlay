@@ -18,6 +18,8 @@ IUSE=""
 DEPEND=">=virtual/jre-1.7:* >=x11-libs/gtk+-2:2"
 RDEPEND="${DEPEND}"
 
+S="${WORKDIR}/dbeaver"
+
 src_install() {
 	insinto "/opt/${P}"
 
