@@ -27,7 +27,7 @@ DEPEND="${RDEPEND}
 "
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-4.9-gentoo.patch
+	"${FILESDIR}"/${PN}-9999-gentoo.patch
 )
 
 src_prepare() {
