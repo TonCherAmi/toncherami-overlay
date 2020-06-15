@@ -51,8 +51,6 @@ src_install(){
 
 	make_desktop_entry "vscode" "Visual Studio Code" "${PN}" "Development;IDE"
 
-	doicon "${FILESDIR}/${PN}.png"
-
 	fperms +x "${DEST}/code"
 	fperms +x "${DEST}/bin/code"
 	fperms +x "${DEST}/resources/app/extensions/git/dist/askpass.sh"
